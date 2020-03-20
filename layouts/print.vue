@@ -2,7 +2,7 @@
   <v-app class="app-print">
     <div v-if="loading" class="loader">
       <img src="/logo.svg" :alt="$t('東京都')" />
-      <scale-loader color="#AAAAAA" />
+      <scale-loader color="#A0A0A0" />
     </div>
     <v-container v-else>
       <v-row align="center" class="PrintMeta">
