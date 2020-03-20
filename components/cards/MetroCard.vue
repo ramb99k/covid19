@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
     <metro-bar-chart
-      :title="$t('都営地下鉄の利用者数の推移')"
+      :title="$t('JR東北本線の利用者数の推移')"
       :title-id="'predicted-number-of-toei-subway-passengers'"
       :chart-id="'metro-bar-chart'"
       :chart-data="metroGraph"
@@ -18,7 +18,7 @@
           })
         }}
         <br />
-        *{{ $t('都営地下鉄4路線の自動改札出場数') }}
+        *{{ $t('JR東北本線の自動改札出場数') }}
       </template>
     </metro-bar-chart>
   </v-col>
@@ -34,7 +34,7 @@ export default {
     MetroBarChart
   },
   data() {
-    // 都営地下鉄の利用者数の推移
+    // JR東北本線の利用者数の推移
     const metroGraph = MetroData
     // metroGraph ツールチップ title文字列
     // this.$t を使うため metroGraphOption の外側へ
