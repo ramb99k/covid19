@@ -59,7 +59,7 @@ const config: Configuration = {
     ]
   },
   /*
-   ** Customize the progress-bar color
+   ** Customize the progress-bar
    */
   loading: { color: '#fff' },
   /*
