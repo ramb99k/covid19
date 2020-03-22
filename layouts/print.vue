@@ -9,7 +9,7 @@
         <v-col :cols="12" :sm="6">
           <div class="PrintMeta-HeadingWrapper">
             <div class="PrintMeta-Logo">
-              <img src="/logo.svg" :alt="$t('桃林県')" />
+              <img src="/logo.png" :alt="$t('海山県')" />
             </div>
             <h1 class="PrintMeta-Heading">
               {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
