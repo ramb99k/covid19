@@ -1,6 +1,6 @@
 <template>
   <v-app class="app">
-    <v-overlay v-if="loading" color="#FF69B4" opacity="1" z-index="9999">
+    <v-overlay v-if="loading" color="#F8F9FA" opacity="1" z-index="9999">
       <div class="loader">
         <img src="/akabeko.png" alt="海山県" />
         <scale-loader color="#FF69B4" />
