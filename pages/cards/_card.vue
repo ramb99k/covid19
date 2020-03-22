@@ -113,7 +113,7 @@ export default {
         updatedAt = MetroData.date
         break
       case 'agency':
-        title = this.$t('都庁来庁者数の推移')
+        title = this.$t('県庁来庁者数の推移')
         updatedAt = agencyData.date
         break
       case 'shinjuku-visitors':
