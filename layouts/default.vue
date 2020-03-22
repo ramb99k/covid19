@@ -1,9 +1,9 @@
 <template>
   <v-app class="app">
-    <v-overlay v-if="loading" color="#A0A0A0" opacity="1" z-index="9999">
+    <v-overlay v-if="loading" color="#FFFFFF" opacity="1" z-index="9999">
       <div class="loader">
         <img src="/logo.png" alt="海山県" />
-        <scale-loader color=”#DDDDDD" />
+        <scale-loader color=”#EEEEEE" />
       </div>
     </v-overlay>
     <div v-if="hasNavigation" class="appContainer">
