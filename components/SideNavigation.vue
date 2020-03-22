@@ -12,8 +12,8 @@
         <nuxt-link :to="localePath('/')" class="SideNavigation-HeaderLink">
           <img
             class="SideNavigation-HeaderLogo"
-            src="/logo.svg"
-            :alt="$t('東京都')"
+            src="/logo.png"
+            :alt="$t('海山県')"
           />
           <div class="SideNavigation-HeaderText">
             {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
@@ -127,7 +127,7 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('都内の最新感染動向'),
+          title: this.$t('県内の最新感染動向'),
           link: this.localePath('/')
         },
         {
@@ -143,7 +143,7 @@ export default Vue.extend({
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('都民の皆様へ'),
+          title: this.$t('県民の皆様へ'),
           link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
         },
         {
@@ -153,12 +153,12 @@ export default Vue.extend({
           divider: true
         },
         {
-          title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
+          title: this.$t('海山県新型コロナウイルス感染症対策本部報'),
           link:
             'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
         },
         {
-          title: this.$t('東京都主催等 中止又は延期するイベント等'),
+          title: this.$t('海山県主催等 中止又は延期するイベント等'),
           link:
             'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html'
         },
@@ -176,7 +176,7 @@ export default Vue.extend({
           link: this.localePath('/contacts')
         },
         {
-          title: this.$t('東京都公式ホームページ'),
+          title: this.$t('海山県公式ホームページ'),
           link: 'https://www.metro.tokyo.lg.jp/'
         }
       ]
