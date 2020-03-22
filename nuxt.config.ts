@@ -59,7 +59,7 @@ const config: Configuration = {
     ]
   },
   /*
-   ** Customize the progress-bar color
+   ** Customize the progress-bar 
    */
   loading: { color: '#fff' },
   /*
@@ -139,7 +139,7 @@ const config: Configuration = {
   },
   manifest: {
     name: '東京都 新型コロナウイルス感染症対策サイト',
-    theme_color: '#FF69B4',
+    theme_color: '#00A064',
     background_color: '#ffffff',
     display: 'standalone',
     Scope: '/',
