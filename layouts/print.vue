@@ -1,7 +1,7 @@
 <template>
   <v-app class="app-print">
     <div v-if="loading" class="loader">
-      <img src="/logo.png" :alt="$t('桃林県')" />
+      <img src="/logo.png" :alt="$t('海山県')" />
       <scale-loader color="#A0A0A0" />
     </div>
     <v-container v-else>
